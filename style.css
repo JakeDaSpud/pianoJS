@@ -1,0 +1,85 @@
+/* Colour Palette Used: https://lospec.com/palette-list/hydrangea-11 */
+/*BG: #413652*/
+/*Text: #c090a7*/
+/*Text Shadow: #575f7e*/
+
+html {
+    font-family:monospace;
+    color: #c090a7;
+    background-color: #413652;
+}
+
+h1 {
+    text-shadow: 1px 2px #575f7e;
+}
+
+body {
+    margin: 0;
+    padding: 50px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.settings {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    margin: 100px 5vh;
+    width: 40%;
+}
+
+.piano {
+    margin: 100px 5vh;
+    width: 80%;
+
+    display: flex;
+    flex-direction: row;
+}
+
+.whiteKey {
+    background-color: rgb(238, 255, 254);
+
+    color: black;
+    text-shadow: none;
+
+    height: 10vh;
+    width: 30%;
+
+    text-wrap: wrap;
+    padding: 4px;
+}
+
+.whiteKey:hover {
+    background-color: rgb(184, 184, 184);
+    cursor: pointer;
+}
+
+.blackKey {
+    background-color: black;
+    color: white;
+    text-shadow: none;
+
+    height: 10vh;
+    width: 20%;
+
+    text-wrap: wrap;
+    padding: 4px;
+}
+
+.blackKey:hover {
+    background-color: rgb(184, 184, 184);
+    cursor: pointer;
+}
+
+.headerDIV {
+    text-align: center;
+
+    padding: 0px 10px 10px 10px;
+    border-radius: 10px;
+    background-color: beige;
+}

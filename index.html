@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jake's pianoJS</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+
+<!--
+
+-->
+
+<body>
+    
+    <div class = "headerDIV">
+        <h1>jake's pianoJS</h1>
+        <b>Click the keys to play the piano</b>
+    </div>
+
+    <div class = "settings">
+        <div class = "noteLength">
+            Note Length (Seconds)
+            <input type = "text" id = "noteLength" value = "2">
+            <button onclick = "setNoteLength(noteL)">Set</button>
+        </div>
+    </div>
+
+    <div class = "piano">
+        <div onclick = "playNote('C4')" class = "whiteKey" id = "C_Bs">C<wbr>/<wbr>B#</div>
+        <div onclick = "playNote('C#4/Db4')" class = "blackKey" id = "Cs_Db">C#<wbr>/<wbr>Db</div>
+        <div onclick = "playNote('D4')" class = "whiteKey" id = "D">D</div>
+        <div onclick = "playNote('D#4/Eb4')" class = "blackKey" id = "Ds_Eb">D#<wbr>/<wbr>Eb</div>
+        <div onclick = "playNote('E4')" class = "whiteKey" id = "E_Fb">E<wbr>/<wbr>Fb</div>
+        <div onclick = "playNote('F4')" class = "whiteKey" id = "F_Es">F<wbr>/<wbr>E#</div>
+        <div onclick = "playNote('F#4/Gb4')" class = "blackKey" id = "Fs_Gb">F#<wbr>/<wbr>Gb</div>
+        <div onclick = "playNote('G4')" class = "whiteKey" id = "G">G</div>
+        <div onclick = "playNote('G#4/Ab4')" class = "blackKey" id = "Gs_Ab">G#<wbr>/<wbr>Ab</div>
+        <div onclick = "playNote('A4')" class = "whiteKey" id = "A">A</div>
+        <div onclick = "playNote('A#4/Bb4')" class = "blackKey" id = "As_Bb">A#<wbr>/<wbr>Bb</div>
+        <div onclick = "playNote('B4')" class = "whiteKey" id = "B_Cb">B<wbr>/<wbr>Cb</div>
+    </div>
+
+</body>
+</html>
